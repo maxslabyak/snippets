@@ -4,11 +4,11 @@
   <head runat="server">
       <asp:PlaceHolder ID="bundleStylePlaceholder" runat="server">
         <% var styles = Styles.Render("~/bundles/css");%>
-        <%=styles.ToString().Replace("/bundles",string.Format("{0}/bundles","http://your-cdn-path.to/))%>
+        <%=styles.ToString().Replace("/bundles",string.Format("{0}/bundles","http://your-cdn-path.to/"))%>
     </asp:PlaceHolder>
     <asp:PlaceHolder ID="bundleScriptPlaceholder" runat="server">
         <% var scripts = Scripts.Render("~/bundles/js");%>
-        <%=scripts.ToString().Replace("/bundles",string.Format("{0}/bundles","http://your-cdn-path.to/))%>
+        <%=scripts.ToString().Replace("/bundles",string.Format("{0}/bundles","http://your-cdn-path.to/"))%>
     </asp:PlaceHolder>
    </head>
    <body>
