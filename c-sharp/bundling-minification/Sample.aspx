@@ -15,6 +15,8 @@
       <p>The CSS and JS will be minified and if your CDN supports server mirroring 
       - e.g. grabbing files from your server and then caching them
       </p>
-      <p>You can also put the JS placeholder at the bottom, as best practices suggest, unless it is required to be on top like jQuery or webfonts
+      <p>You can also put the JS placeholder at the bottom, as best practices suggest, 
+      unless it is required to be on top like jQuery or webfonts
+      </p>
     </body>
 </html>
