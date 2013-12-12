@@ -1,5 +1,6 @@
 namespace Sitecore.Custom
 {
+    /// Sitecore.Caching.CustomCache cannot be directly instantiated
     public class MyCustomCache : Caching.CustomCache
     {
         public MyCustomCache(string name, long maxSize) : base(name, maxSize)
