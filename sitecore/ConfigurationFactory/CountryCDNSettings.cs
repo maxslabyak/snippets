@@ -15,10 +15,10 @@ namespace Image0.CDN
         public string LiveDatabase { get; set; }
         public string CdnPath { get; set; }
         
-        protected CountryAkamaiSettings() { }
+        protected CountryCdnSettings() { }
 
         // websiteConfigKey - site note under <sites> - e.g. website-us, website-uk, etc.
-        public static CountryAkamaiSettings Create(string websiteConfigKey)
+        public static CountryCdnSettings Create(string websiteConfigKey)
         {
             var settings = new CountryCdnSettings();
             
