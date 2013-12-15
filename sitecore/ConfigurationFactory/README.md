@@ -5,3 +5,8 @@ Sitecore configuration files are a great place to store environment-specific set
 Configuration files on the other hand are easily managed. All you have to do is dump a .config file in your /App_Config/Include directory and Sitecore will pick it up. 
 
 You can confirm this via http://{yoursite}/sitecore/admin/showconfig.aspx
+
+3 classes make this work.
+1) ReflectionHelper - This helper class will help store XML nodes into the settings' class properties.
+2) CountryCDNSettings - This static class is a model of the XML node in the settings and also has the Create() method to set the properties.
+3) CdnSettingsExample - example of how you would use everything mentioned above. 
