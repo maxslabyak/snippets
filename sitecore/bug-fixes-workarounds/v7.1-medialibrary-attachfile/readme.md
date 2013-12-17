@@ -12,3 +12,7 @@ Set the upload mode to Classic in your web.config:
 <pre><code>
       &lt;setting name="Upload.Classic" value="true" /&gt;
 </code></pre>
+
+If you don't to mess with your freshly edited/downloaded web.config chock-full of changes for v7.1, you can just dump a .config file into your App_Config/Include directory and then delete it when the Sitecore team issues an offiial patch.
+
+You can pull it from here directly.
